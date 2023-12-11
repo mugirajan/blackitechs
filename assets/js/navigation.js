@@ -22,7 +22,7 @@ function redirectToSoftware() {
 }
 
 function redirectToShopify() {
-    window.location.href = 'web-app.html'; 
+    window.location.href = 'shopify.html'; 
 }
 
 function redirectToWordPress() {
