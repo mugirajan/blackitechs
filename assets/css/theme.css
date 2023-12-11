@@ -11914,7 +11914,8 @@ p {
   line-height: 1; }
 
 .fw-medium {
-  font-weight: 500; }
+  font-weight: 800;
+ }
 
 .fw-semibold {
   font-weight: 600; }
@@ -13707,7 +13708,8 @@ p {
 .hero-10 .img-container {
   position: relative;
   min-width: 140%;
-  margin-left: -40%; }
+  margin-left: -40%;
+ }
   .hero-10 .img-container img {
     z-index: 1;
     position: relative; }
@@ -14305,6 +14307,131 @@ p {
     min-width:0% !important;
     padding:0% !important;
   }
-  .img-container img{
-    height:25rem !important;
+  /* .img-container img{
+    height:15rem !important;
+  } */
+
+  .about-heading{
+    font-size:3rem !important;
+    font-weight:500 !important;
   }
+  .fw-medium-s{
+    font-size:2.5rem !important;
+  }
+
+  /**/
+  .img-content{
+    max-width: 100%;
+    height: auto;
+}
+       
+        .contact-social ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+
+.contact-content p {
+    font-size: 15px;
+    margin: 24px 0 40px;
+    position: relative;
+}
+
+.contact-content p::after {
+    background: #353C46;
+    bottom: -30px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.contact-content h6 {
+    color: #8b9199;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-content span {
+    color: #353c47;
+    margin: 0 10px;
+}
+
+.contact-social > ul {
+    display: inline-flex;
+}
+
+@media(max-width:425px){
+
+.list-unstyled ul li a{
+  margin: 0px;
+ 
+}
+.list-unstyled > ul {
+  display: block;
+  list-style-type: none;
+
+}
+}
+@media(min-width:426px){
+
+  .list-unstyled ul li a{
+    margin: 0 10px;
+   
+  }
+  .list-unstyled > ul {
+    display: inline-flex;
+    list-style-type: none;
+  
+  }
+  }
+
+.contact-social ul li a {
+    
+    color: #8b9199;
+    display: inline-block;
+    height: 40px;
+    margin: 0 5px;
+    padding-top: 7px;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+
+.contact-social ul li a:hover {
+    border: 1px solid #FAB702;
+    color: #FAB702;
+}
+
+.contact-content img {
+    max-width: 210px;
+}
+
+.contact-area, .footer-sec {
+   
+    color: #868c96;
+}
+
+.footer-sec p {
+   
+    text-align: center;
+}
+
+.footer-sec img {
+    width: 44px;
+}
+
+.hover-target i{
+  font-size:1.5rem;
+}
+
+.software-sec{
+  padding:80px 0px;
+}
+
+.img-con-sec .img-con img{
+  height:16rem !important;
+}
