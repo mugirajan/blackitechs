@@ -32,3 +32,16 @@ function redirectToWordPress() {
 function redirectToMobileApp() {
     window.location.href = 'mob-app.html'; 
 }
+
+function redirectToClients(){
+    window.location.href = 'company.html'
+}
+
+function redirectToContact(){
+    window.location.href = 'contact.html'
+}
+
+
+document.getElementById('learnMoreLink').addEventListener('click', function() {
+    $('#myModal').modal('show');
+});
