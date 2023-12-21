@@ -3496,7 +3496,9 @@ textarea.form-control-lg {
       overflow: visible; }
     .navbar-expand-lg .navbar-collapse {
       display: flex !important;
-      flex-basis: auto; }
+      flex-basis: auto;
+      justify-content: flex-end;
+     }
     .navbar-expand-lg .navbar-toggler {
       display: none; }
     .navbar-expand-lg .offcanvas-header {
@@ -10681,7 +10683,7 @@ textarea.form-control-lg {
 .bg-gradient2 {
   background: linear-gradient(#f3f4f7 0%, #f4f5f7 100%) no-repeat left center; }
 .bg-gradient2-orange{
-  background-color: #ff8100bd;
+  background-color: #ffc68c;
 }
 .bg-gradient3 {
   background: linear-gradient(#f4f5f7 0, #fafafb 100%); }
